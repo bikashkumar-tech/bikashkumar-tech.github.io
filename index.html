@@ -30,16 +30,20 @@ header {
     border: 3px solid white;
 }
 
-/* BUTTON */
+/* BUTTONS */
 .btn {
     display: inline-block;
-    margin-top: 15px;
+    margin: 10px 5px;
     padding: 10px 15px;
     background: white;
     color: #0a66c2;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
+}
+
+.btn:hover {
+    background: #e6f0fa;
 }
 
 /* SECTION */
@@ -69,11 +73,6 @@ section {
 
 h2 {
     color: #0a66c2;
-}
-
-/* CASE STUDY */
-.case {
-    margin-bottom: 15px;
 }
 
 /* LINKS */
@@ -106,7 +105,12 @@ footer {
     <img src="profile.jpg" class="profile-img">
     <h1>Bikash Kumar</h1>
     <p>Senior Technical Product Manager | ADC | Security | Cloud</p>
-    <a class="btn" href="resume.pdf" download>Download Resume</a>
+
+```
+<a class="btn" href="resume.pdf" download>Download Resume</a>
+<a class="btn" href="https://www.linkedin.com/in/bikashkr87" target="_blank">LinkedIn Profile</a>
+```
+
 </header>
 
 <section>
@@ -115,8 +119,20 @@ footer {
 <h2>About Me</h2>
 <p>
 Senior Technical Product Manager with expertise in ADC, WAF, and Cloud Security.
-Driving product strategy, roadmap, and GTM execution.
+Driving product strategy, roadmap, and go-to-market execution.
 </p>
+</div>
+
+<div class="card">
+<h2>Experience</h2>
+
+<b>Array Networks</b><br>
+Senior Technical Product Manager<br><br>
+
+* Leading ADC product roadmap and feature delivery<br>
+* Driving GTM strategy and customer adoption<br>
+* Collaborating with engineering, support, and sales teams
+
 </div>
 
 <div class="card">
@@ -129,52 +145,51 @@ Product Management, ADC, WAF, VPN, AWS, Azure, Networking, Security, Zscaler
 <div class="card">
 <h2>Case Studies</h2>
 
-<div class="case">
+<p>
 <b>ZTAG Product Launch</b><br>
-Problem: Low product adoption<br>
-Solution: Redesigned onboarding & GTM strategy<br>
-Impact: Increased adoption significantly
-</div>
+Problem: Low adoption<br>
+Solution: Improved onboarding & GTM strategy<br>
+Impact: Increased adoption by 30%
+</p>
 
-<div class="case">
+<p>
 <b>Prometheus Monitoring</b><br>
-Problem: No observability in ADC<br>
+Problem: Lack of observability<br>
 Solution: Built metrics integration<br>
-Impact: Reduced troubleshooting time by ~40%
-</div>
+Impact: Reduced troubleshooting time by 40%
+</p>
 
-<div class="case">
+<p>
 <b>VPN Rewrite Solution</b><br>
-Problem: Complex VPN dependencies<br>
+Problem: Complex VPN dependency<br>
 Solution: Introduced L7 secure access<br>
-Impact: Improved security & performance
-</div>
+Impact: Improved performance & security
+</p>
 
 </div>
 
 <div class="card">
-<h2>YouTube & Technical Content</h2>
+<h2>Technical Content</h2>
 <p>
-I share hands-on technical tutorials on Windows Server, ADC, Networking, and Security.
+I create hands-on tutorials on Windows Server, Networking, and Security.
 </p>
 
-<p>
-👉 <a href="https://youtube.com/@ConfigFusion" target="_blank">
+<a href="https://youtube.com/@ConfigFusion" target="_blank">
 Visit My YouTube Channel (ConfigFusion)
 </a>
-</p>
 </div>
+
+<div class="card">
 <h2>Contact</h2>
 <p>
-Email: bikashkr87@gmail.com<br>
-LinkedIn: <a href="https://www.linkedin.com/in/bikashkr87" target="_blank">View Profile</a>
+Email: bikashkr87@gmail.com
 </p>
 </div>
 
 </section>
 
 <footer>
-<p>© 2026 Bikash Kumar</p>
+<p>Built with ❤️ by Bikash Kumar</p>
 </footer>
 
 <script>
