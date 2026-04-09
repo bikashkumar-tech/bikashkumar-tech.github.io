@@ -31,7 +31,6 @@ header {
 .tagline {
     margin-top: 10px;
     font-size: 18px;
-    opacity: 0.9;
 }
 
 .btn {
@@ -43,10 +42,6 @@ header {
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
-}
-
-.btn:hover {
-    background: #e6f0ff;
 }
 
 section {
@@ -61,15 +56,6 @@ section {
     margin-bottom: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.6s ease;
-}
-
-.card.show {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 h2 {
@@ -78,15 +64,10 @@ h2 {
 
 a {
     color: #0a66c2;
-    text-decoration: none;
     font-weight: 600;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-/* GRID + MINI CARDS */
+/* GRID */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -103,17 +84,6 @@ a:hover {
 
 .mini-card:hover {
     transform: translateY(-5px);
-}
-
-.mini-card h3 {
-    margin: 0 0 10px;
-    font-size: 16px;
-    color: #0a66c2;
-}
-
-.mini-card p {
-    font-size: 14px;
-    margin: 0 0 8px;
 }
 
 .icon {
@@ -133,19 +103,17 @@ footer {
 <body>
 
 <header>
-    <img src="profile.jpg" class="profile-img">
-    <h1>Bikash Kumar</h1>
-    <p>Senior Technical Product Manager | ADC | Security | Cloud</p>
+<img src="profile.jpg" class="profile-img">
+<h1>Bikash Kumar</h1>
+<p>Senior Technical Product Manager | ADC | Security | Cloud</p>
 
-    <p class="tagline">
-        Building scalable, secure application delivery & zero trust solutions
-    </p>
+<p class="tagline">
+Building scalable, secure application delivery & zero trust solutions
+</p>
 
-    <p>🚀 10+ yrs | 99.9% uptime | 540+ devices secured | Multi-Cloud</p>
+<p>🚀 10+ yrs | 99.9% uptime | 540+ devices secured</p>
 
-    <p style="opacity: 0.85;">Bangalore, India</p>
-
-    <a href="mailto:bikashkr87@gmail.com" class="btn">🚀 Let's Connect</a>
+<a href="mailto:bikashkr87@gmail.com" class="btn">🚀 Let's Connect</a>
 </header>
 
 <section>
@@ -154,134 +122,129 @@ footer {
 <div class="card">
 <h2>Professional Summary</h2>
 <p>
-Senior Technical Product Manager with 10+ years of experience in ADC, Zero Trust, and cloud networking.
-Focused on building scalable, secure, and AI-driven network platforms across AWS, Azure, and GCP.
+Senior Technical Product Manager with 10+ years of experience in data center infrastructure,
+ADC, Zero Trust (ZTNA), and cloud-native networking.
 </p>
-</div>
-
-<!-- CORE COMPETENCIES -->
-<div class="card">
-<h2>💡 Core Competencies</h2>
-<div class="grid">
-
-<div class="mini-card">
-<div class="icon">📦</div>
-<h3>Product Management</h3>
-<p>Roadmap, PRD, GTM, Pricing</p>
-</div>
-
-<div class="mini-card">
-<div class="icon">🌐</div>
-<h3>Networking</h3>
-<p>L2/L3, BGP, HA Design</p>
-</div>
-
-<div class="mini-card">
-<div class="icon">🔐</div>
-<h3>Security</h3>
-<p>ADC, WAF, DDoS, Zero Trust</p>
-</div>
-
-<div class="mini-card">
-<div class="icon">☁️</div>
-<h3>Cloud</h3>
-<p>AWS, Azure, GCP</p>
-</div>
-
-<div class="mini-card">
-<div class="icon">🛠</div>
-<h3>Tools</h3>
-<p>Jira, Jenkins, Terraform</p>
-</div>
-
-</div>
-</div>
-
-<!-- KEY IMPACT -->
-<div class="card">
-<h2>🚀 Key Impact</h2>
-<div class="grid">
-
-<div class="mini-card">
-<h3>99.9% Uptime</h3>
-<p>Across 300+ PoPs network</p>
-</div>
-
-<div class="mini-card">
-<h3>540+ Devices</h3>
-<p>Enterprise security hardening</p>
-</div>
-
-<div class="mini-card">
-<h3>ZTAG Launch</h3>
-<p>Zero Trust product launched</p>
-</div>
-
-<div class="mini-card">
-<h3>40% Faster Debugging</h3>
-<p>Using observability tools</p>
-</div>
-
-</div>
 </div>
 
 <!-- EXPERIENCE -->
 <div class="card">
 <h2>Experience</h2>
 
-<p><b>Array Networks</b> | Senior TPM (2024–Present)</p>
+<p><b>Array Networks | Senior Technical Product Manager (2024–Present)</b></p>
 <ul>
-<li>Owned roadmap for ADC & ZTNA</li>
-<li>Launched Zero Trust (ZTAG)</li>
-<li>Led GTM & pricing</li>
+<li>Owned roadmap for ADC & ZTNA products</li>
+<li>Launched Zero Trust product (ZTAG)</li>
+<li>Led GTM strategy, pricing, and sales enablement</li>
 </ul>
 
-<p><b>Orange Business Services</b> (2016–2020)</p>
+<p><b>Array Networks | Infra & Lab Architect (2021–2024)</b></p>
 <ul>
-<li>Managed large-scale DC infra</li>
-<li>Maintained high availability</li>
+<li>Built production-grade data center infrastructure</li>
+<li>Designed DDoS scrubbing center</li>
+<li>Enabled AWS, Azure, GCP marketplace deployments</li>
 </ul>
+
+<p><b>Orange Business Services (2016–2020)</b></p>
+<ul>
+<li>Managed large-scale government data centers</li>
+<li>Worked on Cisco Nexus, MPLS, BGP</li>
+<li>Ensured high availability & SLA compliance</li>
+</ul>
+
 </div>
 
 <!-- CASE STUDIES -->
 <div class="card">
 <h2>🚀 Case Studies</h2>
+
 <div class="grid">
 
 <div class="mini-card">
 <div class="icon">🔐</div>
-<h3>ZTAG – 30% Growth</h3>
-<p>Improved onboarding & GTM → +30% adoption</p>
+<h3>ZTAG Product Launch</h3>
+<p><b>Problem:</b> Low adoption</p>
+<p><b>Solution:</b> Improved onboarding & GTM strategy</p>
+<p><b>Impact:</b> Increased adoption by 30%</p>
 </div>
 
 <div class="mini-card">
 <div class="icon">📊</div>
-<h3>Monitoring</h3>
-<p>Reduced troubleshooting time by 40%</p>
+<h3>Prometheus Monitoring</h3>
+<p><b>Problem:</b> Lack of observability</p>
+<p><b>Solution:</b> Built metrics integration</p>
+<p><b>Impact:</b> Reduced troubleshooting time by 40%</p>
 </div>
 
 <div class="mini-card">
 <div class="icon">🌐</div>
-<h3>VPN Rewrite</h3>
-<p>Improved performance & security</p>
+<h3>VPN Rewrite Solution</h3>
+<p><b>Problem:</b> Complex VPN dependency</p>
+<p><b>Solution:</b> Introduced L7 secure access</p>
+<p><b>Impact:</b> Improved performance & security</p>
 </div>
 
 </div>
+</div>
+
+<!-- KEY ACHIEVEMENTS -->
+<div class="card">
+<h2>Key Achievements</h2>
+<ul>
+<li>Built multiple data centers from scratch</li>
+<li>Launched Zero Trust product (ZTAG)</li>
+<li>Published solutions on AWS, Azure, GCP marketplaces</li>
+<li>Employee of the Quarter & Spot Award recipient</li>
+</ul>
 </div>
 
 <!-- AWARDS -->
 <div class="card">
 <h2>🏆 Awards & Certifications</h2>
 
-<p><b>Employee of Quarter (2020)</b><br>
+<p><b>Employee of the Quarter – Array Networks (Q3 2020)</b><br>
 <a href="assets/certificates/employee-q3-2020.jpg" target="_blank">View Certificate</a></p>
 
-<p><b>Spot Award (2023)</b><br>
-Cloud Centre implementation</p>
+<p><b>Spot Award – Array Networks (Q3 2023)</b><br>
+Recognized for Array Cloud Centre implementation</p>
 
-<p><b>Flash Awards (2017–2019)</b><br>
-<a href="assets/certificates/flash-award-2019-feb.jpg" target="_blank">View</a></p>
+<p><b>Flash Award – Orange Business Services (2019)</b><br>
+<a href="assets/certificates/flash-award-2019-feb.jpg" target="_blank">View Certificate</a></p>
 
+<p><b>Flash Award – Orange Business Services (2018)</b><br>
+<a href="assets/certificates/flash-award-2018-dec.jpg" target="_blank">View Certificate</a></p>
+
+<p><b>Flash Award – Orange Business Services (2017)</b><br>
+<a href="assets/certificates/flash-award-2017-oct.jpg" target="_blank">View Certificate</a></p>
+
+<p><b>Semester Award – 2016</b><br>
+<a href="assets/certificates/semester-award-2016.jpg" target="_blank">View Certificate</a></p>
+
+<h3>📜 Certifications</h3>
+
+<p>
+Array Training – <a href="assets/certificates/array-training-2020.pdf" target="_blank">View</a><br>
+DSCI – <a href="assets/certificates/dsci-2021.pdf" target="_blank">View</a><br>
+Outskill AI – <a href="assets/certificates/outskill-2026.pdf" target="_blank">View</a>
+</p>
+
+</div>
+
+<!-- CERTIFICATIONS -->
+<div class="card">
+<h2>Certifications</h2>
+<p>
+CCNA, CCNP, Fortinet NSE, Palo Alto ACE, IPv6 Engineer
+</p>
+</div>
+
+<!-- CONTENT -->
+<div class="card">
+<h2>Technical Content</h2>
+<p>I create hands-on tutorials on networking & security.</p>
+<a href="https://youtube.com/@ConfigFusion" target="_blank">
+Visit YouTube Channel
+</a>
 </div>
 
 <!-- CONTACT -->
@@ -289,7 +252,8 @@ Cloud Centre implementation</p>
 <h2>Contact</h2>
 <p>
 📧 <a href="mailto:bikashkr87@gmail.com">Email</a><br>
-💼 <a href="https://linkedin.com/in/bikashkr87" target="_blank">LinkedIn</a>
+💼 <a href="https://linkedin.com/in/bikashkr87" target="_blank">LinkedIn</a><br>
+💬 <a href="https://wa.me/917632999209" target="_blank">WhatsApp</a>
 </p>
 </div>
 
@@ -298,22 +262,6 @@ Cloud Centre implementation</p>
 <footer>
 <p>Built with ❤️ by Bikash Kumar</p>
 </footer>
-
-<script>
-const cards = document.querySelectorAll('.card');
-
-function showCards() {
-    cards.forEach(card => {
-        const top = card.getBoundingClientRect().top;
-        if (top < window.innerHeight - 50) {
-            card.classList.add('show');
-        }
-    });
-}
-
-window.addEventListener('load', showCards);
-window.addEventListener('scroll', showCards);
-</script>
 
 </body>
 </html>
