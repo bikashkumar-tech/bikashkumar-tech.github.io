@@ -199,6 +199,63 @@ footer {
     }
 }
 
+/* CERTIFICATIONS */
+.cert-card {
+    background: #f8f9fb;
+    padding: 15px 18px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    border-left: 4px solid #0a66c2;
+}
+
+.cert-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.cert-card h4 {
+    margin: 0 0 6px;
+    font-size: 16px;
+}
+
+.cert-card p {
+    margin: 2px 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.cert-card a {
+    display: inline-block;
+    margin-top: 6px;
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.cert-card a:hover {
+    text-decoration: underline;
+}
+
+.cert-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cert-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.certifications h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: #1f2937;
+    font-size: 16px;
+}
+
 </style>
 </head>
 
@@ -474,11 +531,88 @@ Generative AI Mastermind – Outskill (2026) –
 
 </div>
 <!-- CERTIFICATIONS -->
-<div class="card">
-<h2>Certifications</h2>
-<p>
-CCNA, CCNP, Fortinet NSE, Palo Alto ACE, IPv6 Engineer
-</p>
+<div class="card" id="certifications">
+  <h2>📜 Professional Certifications</h2>
+
+  <!-- Cisco -->
+  <h3>🔹 Cisco Certifications</h3>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/ccna.jpg" class="cert-logo">
+      <h4>CCNA Routing & Switching</h4>
+    </div>
+    <a href="https://www.credly.com/badges/c11e0bba-ff9c-47c7-bbb4-3cfa33f45c24" target="_blank">
+      View Credential →
+    </a>
+  </div>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/ccnp.jpg" class="cert-logo">
+      <h4>Cisco Certified Network Professional (CCNP)</h4>
+    </div>
+    <a href="assets/certificates/ccnp-routing.jpg" target="_blank">
+      View Credential →
+    </a>
+  </div>
+
+  <!-- Fortinet -->
+  <h3>🔹 Fortinet Certifications</h3>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/nse3.jpg" class="cert-logo">
+      <h4>Fortinet NSE 3 – Network Security Associate</h4>
+    </div>
+    <p>Issued: May 2019</p>
+    <p>Credential ID: nJgjCED1zx</p>
+    <a href="assets/certificates/nse3.pdf" target="_blank">View Credential →</a>
+  </div>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/nse2.jpg" class="cert-logo">
+      <h4>Fortinet NSE 2 – Network Security Associate</h4>
+    </div>
+    <p>Issued: May 2019</p>
+    <p>Credential ID: UNRqD4YhqR</p>
+    <a href="assets/certificates/nse2.pdf" target="_blank">View Credential →</a>
+  </div>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/nse1.jpg" class="cert-logo">
+      <h4>Fortinet NSE 1 – Network Security Associate</h4>
+    </div>
+    <p>Issued: Mar 2017</p>
+    <p>Credential ID: 6InBbZrv0J</p>
+    <a href="assets/certificates/nse1.pdf" target="_blank">View Credential →</a>
+  </div>
+
+  <!-- Others -->
+  <h3>🔹 Other Certifications</h3>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/ace.png" class="cert-logo">
+      <h4>Palo Alto ACE</h4>
+    </div>
+    <a href="assets/certificates/palo-alto-ace-certificate.pdf" target="_blank">
+      View Credential →
+    </a>
+  </div>
+
+  <div class="cert-card">
+    <div class="cert-header">
+      <img src="assets/logos/ipv6.jpg" class="cert-logo">
+      <h4>IPv6 Certified Engineer</h4>
+    </div>
+    <a href="assets/certificates/ipv6_forum_certificate.jpg" target="_blank">
+      View Credential →
+    </a>
+  </div>
+
 </div>
 
 <!-- CONTENT -->
